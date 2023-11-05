@@ -3,14 +3,12 @@ import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Ishaan from "@/public/images/Ishaan.jpg";
-import Head from "next/head";
 
 type Props = {};
 
 function Team({}: Props) {
   return (
     <div>
-     
       <section className="container px-6 mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}

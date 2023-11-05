@@ -1,10 +1,9 @@
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Link from "next/link";
 import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
-import { motion, useScroll, useSpring } from "framer-motion";
+import { motion} from "framer-motion";
 import FAQ from "@/components/FAQ";
 import Head from "next/head";
 import Image from "next/image";

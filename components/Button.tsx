@@ -12,7 +12,7 @@ const Button = () => {
         onClick={() =>
           theme === "dark" ? setTheme("light") : setTheme("dark")
         }
-        className="transition-all duration-100 text-white dark:text-gray-800 px-8 py-2 text-sm rounded-lg bottom-32"
+        className="transition-all duration-100 text-white dark:text-gray-800 m-2 p-2 text-sm rounded-lg bottom-32"
       >
        
         {currentTheme === "light" ? (
